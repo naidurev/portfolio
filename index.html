@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revanth Naidu | Bioinformatician</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <canvas id="bgCanvas" style="position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;pointer-events:none;"></canvas>
+
+    <!-- NAV -->
+    <header class="header" id="header">
+        <a href="#home" class="logo">RN<span>.</span></a>
+        <nav class="navbar">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#experience" class="nav-link">Experience</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+        <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="hero-glass">
+            <div class="hero-badge">
+                <div class="badge-dot"></div>
+                Available for research collaborations
+            </div>
+            <h1 class="hero-name">Revanth Naidu</h1>
+            <div class="hero-role">
+                <span id="typed-text"></span><span class="cursor" style="color:var(--accent);animation:blink 0.8s step-end infinite">|</span>
+            </div>
+            <p class="hero-desc">
+                Bioinformatician with experience in protein structure prediction, molecular dynamics simulations, and drug discovery. Currently pursuing an MSc in Bioinformatics for Health Sciences at UPF/UB Barcelona.
+            </p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-outline">Get In Touch</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-num"><span data-target="2000">0</span>+</span>
+                    <span class="stat-label">Compounds Screened</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-num"><span data-target="500">0</span>ns</span>
+                    <span class="stat-label">MD Simulations</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-num"><span data-target="1">0</span></span>
+                    <span class="stat-label">Publication</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+        <div class="section-header reveal">
+            <span class="section-tag">01. About Me</span>
+            <h2 class="section-title">The Story So Far</h2>
+        </div>
+        <div class="about-grid">
+            <div class="glass-card about-info-card reveal">
+                <div class="about-avatar-glass">RN</div>
+                <div class="info-rows">
+                    <div class="info-row"><span class="info-key">Location</span><span class="info-val">Barcelona, Spain</span></div>
+                    <div class="info-row"><span class="info-key">Email</span><span class="info-val">naidurevanth2003@gmail.com</span></div>
+                    <div class="info-row"><span class="info-key">GitHub</span><span class="info-val">github.com/naidurev</span></div>
+                    <div class="info-row"><span class="info-key">ORCID</span><span class="info-val">0009-0009-6851-7640</span></div>
+                    <div class="info-row"><span class="info-key">Phone</span><span class="info-val">+34 671 326 02</span></div>
+                </div>
+            </div>
+            <div class="glass-card about-body reveal reveal-delay-1">
+                <p>I'm Revanth — a <strong>bioinformatician</strong> with experience in protein structure prediction, molecular dynamics simulations, and computational drug design.</p>
+                <p>Currently pursuing my <strong>MSc in Bioinformatics for Health Sciences</strong> at Universitat Pompeu Fabra &amp; Universitat de Barcelona, with coursework in Structural Bioinformatics, Computer-Assisted Drug Discovery, Data Mining &amp; Intelligence, and Databases and Web Design.</p>
+                <p>From building POPC membrane simulations with CHARMM-GUI to running full RNA-seq pipelines, I turn biological questions into computational answers.</p>
+                <div class="edu-cards">
+                    <div class="edu-card">
+                        <div class="edu-year">2025 – 2027</div>
+                        <div class="edu-degree">MSc Bioinformatics for Health Sciences</div>
+                        <div class="edu-school">UPF / UB · Barcelona, Spain</div>
+                        <div class="edu-courses">Structural Bioinformatics · Computer-Assisted Drug Discovery · Data Mining &amp; Intelligence · Databases and Web Design</div>
+                    </div>
+                    <div class="edu-card">
+                        <div class="edu-year">2021 – 2024</div>
+                        <div class="edu-degree">BSc (Hons) Biotechnology — First Division with Distinction</div>
+                        <div class="edu-school">Amity University Mumbai · CGPA 9.14 / 10</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section section-alt" id="skills">
+        <div class="section-header reveal">
+            <span class="section-tag">02. Skills</span>
+            <h2 class="section-title">Technical Skills</h2>
+        </div>
+        <div class="skills-grid">
+            <div class="glass-card skill-card reveal">
+                <h3>Molecular Dynamics</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">GROMACS</span><span class="skill-tag">CHARMM-GUI</span><span class="skill-tag">Schrodinger Maestro</span><span class="skill-tag">Desmond</span><span class="skill-tag">NAMD</span><span class="skill-tag">AMBER</span>
+                </div>
+            </div>
+            <div class="glass-card skill-card reveal reveal-delay-1">
+                <h3>Docking &amp; Structure</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">AutoDock Vina</span><span class="skill-tag">GOLD</span><span class="skill-tag">AlphaFold</span><span class="skill-tag">Modeller</span><span class="skill-tag">I-TASSER</span><span class="skill-tag">PyMOL</span><span class="skill-tag">ChimeraX</span><span class="skill-tag">Swiss-PdbViewer</span>
+                </div>
+            </div>
+            <div class="glass-card skill-card reveal reveal-delay-2">
+                <h3>NGS &amp; Genomics</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">FastQC</span><span class="skill-tag">Trimmomatic</span><span class="skill-tag">Bowtie2</span><span class="skill-tag">BWA</span><span class="skill-tag">SAMtools</span><span class="skill-tag">MACS2</span><span class="skill-tag">DESeq2</span><span class="skill-tag">MAFFT</span><span class="skill-tag">IQ-TREE</span><span class="skill-tag">OrthoFinder</span><span class="skill-tag">HOMER</span><span class="skill-tag">BLAST</span><span class="skill-tag">Clustal Omega</span><span class="skill-tag">MEGA</span>
+                </div>
+            </div>
+            <div class="glass-card skill-card reveal reveal-delay-1">
+                <h3>Network &amp; Databases</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">STRING</span><span class="skill-tag">Cytoscape</span><span class="skill-tag">KEGG</span><span class="skill-tag">UniProt</span><span class="skill-tag">PubChem</span><span class="skill-tag">PDB</span><span class="skill-tag">NCBI</span>
+                </div>
+            </div>
+            <div class="glass-card skill-card reveal reveal-delay-2">
+                <h3>Programming</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Python</span><span class="skill-tag">R</span><span class="skill-tag">Bash</span><span class="skill-tag">Git / GitHub</span><span class="skill-tag">Flask</span><span class="skill-tag">Pandas</span><span class="skill-tag">NumPy</span><span class="skill-tag">Biopython</span><span class="skill-tag">ggplot2</span><span class="skill-tag">Bioconductor</span>
+                </div>
+            </div>
+            <div class="glass-card skill-card reveal reveal-delay-3">
+                <h3>Laboratory</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">DNA Isolation</span><span class="skill-tag">PCR</span><span class="skill-tag">PAGE</span><span class="skill-tag">Cell Culture</span><span class="skill-tag">UV Spectrophotometry</span><span class="skill-tag">Enzyme Assays</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience">
+        <div class="section-header reveal">
+            <span class="section-tag">03. Experience</span>
+            <h2 class="section-title">Research Journey</h2>
+        </div>
+        <div class="timeline">
+            <div class="tl-item reveal">
+                <div class="tl-dot"></div>
+                <div class="glass-card tl-content">
+                    <div class="tl-meta">
+                        <span class="tl-date">Jun 2024 – Aug 2025</span>
+                        <span class="tl-badge">Research</span>
+                    </div>
+                    <div class="tl-role">Research Assistant</div>
+                    <div class="tl-org">AiSense Laboratory · Mumbai, India</div>
+                    <ul class="tl-list">
+                        <li>Built a <strong>fragment-based protein structure prediction pipeline</strong> targeting CAV2.2; benchmarked against AlphaFold using Ramachandran plots, Z-scores, cross-correlation plots, and PCA.</li>
+                        <li>Set up a <strong>POPC membrane simulation</strong> of CAV2.2 using CHARMM-GUI; ran a 500 ns trajectory in GROMACS and analysed RMSD, RMSF, and lipid-protein contacts.</li>
+                    </ul>
+                    <div class="tl-tags"><span class="tl-tag">CAV2.2</span><span class="tl-tag">CHARMM-GUI</span><span class="tl-tag">GROMACS</span><span class="tl-tag">AlphaFold</span></div>
+                </div>
+            </div>
+            <div class="tl-item reveal reveal-delay-1">
+                <div class="tl-dot"></div>
+                <div class="glass-card tl-content">
+                    <div class="tl-meta">
+                        <span class="tl-date">Jul 2023 – Aug 2023</span>
+                        <span class="tl-badge">Internship</span>
+                    </div>
+                    <div class="tl-role">Research Intern</div>
+                    <div class="tl-org">ACTREC · Mumbai, India</div>
+                    <ul class="tl-list">
+                        <li>Predicted and validated the 3D structure of <strong>HER2</strong>; Ramachandran favoured &gt;95%, RMSD &lt;2 Å from experimental structures.</li>
+                        <li>Screened <strong>2,000+ FDA-approved compounds</strong> against HER2 using AutoDock Vina; 15 candidates with binding affinity &lt;−9.0 kcal/mol.</li>
+                        <li>Ran <strong>500 ns MD simulations</strong> in GROMACS; RMSD, RMSF, H-bond, and MM-PBSA analyses performed.</li>
+                        <li>Applied <strong>PCA</strong> to trajectory data to identify essential protein motions and conformational substates.</li>
+                    </ul>
+                    <div class="tl-tags"><span class="tl-tag">HER2</span><span class="tl-tag">AutoDock Vina</span><span class="tl-tag">GROMACS</span><span class="tl-tag">MM-PBSA</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="pub-card reveal">
+            <div class="pub-label">Publication</div>
+            <p class="pub-text">Velhal K., Sah P., Raut R., Yamgar R., <strong>Naidu R.</strong>, Kalra P., Barage S., Lakkakula J., Uddin I. (2025). A novel approach: inclusion complex-capped gold nanoparticles for paclitaxel delivery in triple-negative breast cancer. <em>Medical Oncology</em>, 42, 243.</p>
+            <p class="pub-contrib">Contribution: In silico target identification (STRING / Cytoscape), molecular docking of paclitaxel against AKT1, GAPDH, and MMP9 (AutoDock Vina), and 100 ns MD simulations (Schrodinger Maestro / Desmond).</p>
+            <div class="pub-meta">
+                <span class="pub-journal">Medical Oncology</span>
+                <span class="pub-year">2025</span>
+                <a href="https://doi.org/10.1007/s12032-025-02805-2" class="pub-doi" target="_blank" rel="noopener">DOI: 10.1007/s12032-025-02805-2</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section section-alt" id="projects">
+        <div class="section-header reveal">
+            <span class="section-tag">04. Projects</span>
+            <h2 class="section-title">Selected Work</h2>
+        </div>
+        <div class="projects-grid">
+            <div class="glass-card reveal">
+                <div class="proj-num">01</div>
+                <div class="proj-card-inner">
+                    <div class="proj-title">DiseaseNet — Disease-Gene-Protein-Ligand Search Tool</div>
+                    <p class="proj-desc">Flask web application integrating KEGG, UniProt, and PubChem APIs. Parallel processing, fuzzy matching, and CSV export. Returns 100+ genes per query in under 60 seconds.</p>
+                    <div class="proj-tags"><span class="proj-tag">Python</span><span class="proj-tag">Flask</span><span class="proj-tag">KEGG</span><span class="proj-tag">UniProt</span><span class="proj-tag">PubChem</span></div>
+                    <a href="https://github.com/naidurev/diseasenet" class="proj-link" target="_blank" rel="noopener">github.com/naidurev/diseasenet</a>
+                </div>
+            </div>
+            <div class="glass-card reveal reveal-delay-1">
+                <div class="proj-num">02</div>
+                <div class="proj-card-inner">
+                    <div class="proj-title">Transcriptomic Analysis of Anti-Cancer Peptides</div>
+                    <p class="proj-desc">Full RNA-seq pipeline on <em>Conus</em> species data to characterise omega-conotoxin peptides. MAFFT alignment; peptide structures simulated against CAV2.2 using Schrodinger Maestro / Desmond.</p>
+                    <div class="proj-tags"><span class="proj-tag">R</span><span class="proj-tag">DESeq2</span><span class="proj-tag">FastQC</span><span class="proj-tag">MAFFT</span><span class="proj-tag">Desmond</span></div>
+                </div>
+            </div>
+            <div class="glass-card reveal reveal-delay-2">
+                <div class="proj-num">03</div>
+                <div class="proj-card-inner">
+                    <div class="proj-title">Fragment-Based Protein Structure Prediction Pipeline</div>
+                    <p class="proj-desc">End-to-end pipeline for multi-domain protein structure prediction via fragment assembly. Validated using Ramachandran plots, Z-scores, and PCA against AlphaFold structures.</p>
+                    <div class="proj-tags"><span class="proj-tag">Python</span><span class="proj-tag">AlphaFold</span><span class="proj-tag">Modeller</span><span class="proj-tag">GROMACS</span></div>
+                </div>
+            </div>
+            <div class="glass-card reveal reveal-delay-3">
+                <div class="proj-num">04</div>
+                <div class="proj-card-inner">
+                    <div class="proj-title">MYOD1 Conservation Analysis Across Vertebrates</div>
+                    <p class="proj-desc">BLASTP, OrthoFinder ortholog clustering, and MAFFT alignment across 12 vertebrate species. Maximum-likelihood phylogenetic tree built with IQ-TREE.</p>
+                    <div class="proj-tags"><span class="proj-tag">BLASTP</span><span class="proj-tag">OrthoFinder</span><span class="proj-tag">MAFFT</span><span class="proj-tag">IQ-TREE</span></div>
+                </div>
+            </div>
+            <div class="glass-card reveal">
+                <div class="proj-num">05</div>
+                <div class="proj-card-inner">
+                    <div class="proj-title">ChIP-seq Binding Site Analysis</div>
+                    <p class="proj-desc">Full ChIP-seq pipeline: FastQC, Bowtie2 alignment, MACS2 peak calling, and HOMER transcription factor motif enrichment analysis.</p>
+                    <div class="proj-tags"><span class="proj-tag">FastQC</span><span class="proj-tag">Bowtie2</span><span class="proj-tag">MACS2</span><span class="proj-tag">HOMER</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+        <div class="section-header reveal">
+            <span class="section-tag">05. Contact</span>
+            <h2 class="section-title">Get In Touch</h2>
+        </div>
+        <div class="contact-grid">
+            <div class="glass-card contact-info reveal">
+                <p>Open to research collaborations, internship opportunities, and discussions around structural bioinformatics, drug discovery, or NGS analysis.</p>
+                <div class="contact-links">
+                    <a href="mailto:naidurevanth2003@gmail.com" class="contact-row"><span class="contact-key">Email</span><span>naidurevanth2003@gmail.com</span></a>
+                    <a href="tel:+34671326002" class="contact-row"><span class="contact-key">Phone</span><span>+34 671 326 02</span></a>
+                    <a href="https://github.com/naidurev" class="contact-row" target="_blank" rel="noopener"><span class="contact-key">GitHub</span><span>github.com/naidurev</span></a>
+                    <div class="contact-row"><span class="contact-key">ORCID</span><span>0009-0009-6851-7640</span></div>
+                </div>
+            </div>
+            <div class="glass-card contact-form-wrap reveal reveal-delay-1">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" class="form-input" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-input" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-input form-textarea" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Designed &amp; built by <span>Revanth Naidu</span> &mdash; Bioinformatician &middot; Barcelona, 2025</p>
+    </footer>
+
+    <button class="scroll-top" id="scrollTop">↑</button>
+
+    <style>
+        @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+        .skill-card { padding: 24px; }
+    </style>
+
+    <script>
+    // Typed effect
+    (function() {
+        const el = document.getElementById('typed-text');
+        if (!el) return;
+        const words = ['Bioinformatician', 'Structural Bioinformatician', 'Drug Discovery Researcher', 'NGS Data Analyst', 'Protein Structure Predictor'];
+        let wi = 0, ci = 0, del = false, pausing = false;
+        function type() {
+            const cur = words[wi];
+            if (!del) {
+                el.textContent = cur.slice(0, ++ci);
+                if (ci === cur.length) { pausing = true; setTimeout(() => { pausing = false; del = true; }, 2000); return; }
+            } else {
+                el.textContent = cur.slice(0, --ci);
+                if (ci === 0) { del = false; wi = (wi + 1) % words.length; }
+            }
+            if (!pausing) setTimeout(type, del ? 50 : 85);
+        }
+        setTimeout(type, 600);
+    })();
+
+    // Reveal
+    const revObs = new IntersectionObserver(entries => {
+        entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.reveal').forEach(el => revObs.observe(el));
+
+    // Header / nav / scroll top
+    window.addEventListener('scroll', () => {
+        document.getElementById('scrollTop')?.classList.toggle('visible', window.scrollY > 400);
+        let current = '';
+        document.querySelectorAll('section[id]').forEach(s => {
+            if (window.scrollY >= s.offsetTop - 100) current = s.id;
+        });
+        document.querySelectorAll('.nav-link').forEach(l => {
+            l.classList.toggle('active', l.getAttribute('href') === '#' + current);
+        });
+    }, { passive: true });
+
+    document.getElementById('scrollTop')?.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+    // Counters
+    document.querySelectorAll('[data-target]').forEach(el => {
+        const obs = new IntersectionObserver(entries => {
+            entries.forEach(e => {
+                if (!e.isIntersecting) return;
+                const target = parseInt(el.dataset.target);
+                const start = performance.now();
+                (function step(now) {
+                    const p = Math.min((now - start) / 1800, 1);
+                    el.textContent = Math.floor(p * p * target);
+                    if (p < 1) requestAnimationFrame(step);
+                    else el.textContent = target;
+                })(start);
+                obs.unobserve(el);
+            });
+        }, { threshold: 0.5 });
+        obs.observe(el);
+    });
+
+    // Form
+    document.getElementById('contactForm')?.addEventListener('submit', e => {
+        e.preventDefault();
+        const btn = e.target.querySelector('button');
+        const orig = btn.textContent;
+        btn.textContent = 'Message Sent';
+        btn.style.background = 'rgba(52,211,153,0.8)';
+        setTimeout(() => { btn.textContent = orig; btn.style.background = ''; e.target.reset(); }, 3000);
+    });
+
+    // Hamburger
+    document.getElementById('hamburger')?.addEventListener('click', () => {
+        document.querySelector('.navbar').classList.toggle('open');
+    });
+    </script>
+
+    <script>
+    /* =============================================
+       PARTICLE NETWORK — Glass Theme (optimised)
+       Key changes vs original:
+         • window.innerWidth/Height for reliable canvas size
+         • particle count capped at 80 (was 130)
+         • connectParticles batched into 5 alpha buckets
+           → ~5 ctx.stroke() calls instead of ~8000/frame
+         • connectMouse batched into 4 buckets, no gradients
+         • draw() halo via plain fill, no radialGradient
+         • squared-distance fast-reject before sqrt
+       ============================================= */
+    (function () {
+        const canvas = document.getElementById('bgCanvas');
+        const ctx    = canvas.getContext('2d');
+
+        const RGB       = '129, 140, 248';   /* --accent indigo  */
+        const RGB_LIGHT = '167, 139, 250';   /* --accent-2 violet */
+
+        let W, H, particles;
+        const mouse = { x: null, y: null, radius: 140 };
+
+        /* ---- resize: window dimensions = reliable for position:fixed canvas ---- */
+        function resize() {
+            W = canvas.width  = window.innerWidth;
+            H = canvas.height = window.innerHeight;
+        }
+        window.addEventListener('resize', () => { resize(); spawnParticles(); });
+
+        /* ---- mouse: canvas covers full viewport so clientX/Y are correct ---- */
+        window.addEventListener('mousemove', e => { mouse.x = e.clientX; mouse.y = e.clientY; });
+        window.addEventListener('mouseleave', () => { mouse.x = null; mouse.y = null; });
+
+        /* ---- particle ---- */
+        function Particle() {
+            this.x    = Math.random() * W;
+            this.y    = Math.random() * H;
+            this.vx   = (Math.random() - 0.5) * 0.55;
+            this.vy   = (Math.random() - 0.5) * 0.55;
+            this.base = Math.random() * 2 + 0.8;
+            this.r    = this.base;
+            this.a    = Math.random() * 0.5 + 0.15;
+            this.pulseOffset = Math.random() * Math.PI * 2;
+        }
+
+        Particle.prototype.update = function (t) {
+            if (mouse.x !== null) {
+                const dx    = this.x - mouse.x;
+                const dy    = this.y - mouse.y;
+                const dist2 = dx * dx + dy * dy;
+                const mr2   = mouse.radius * mouse.radius;
+                if (dist2 < mr2 && dist2 > 0.25) {
+                    const dist  = Math.sqrt(dist2);
+                    const force = (1 - dist / mouse.radius) * 3;
+                    this.x += (dx / dist) * force;
+                    this.y += (dy / dist) * force;
+                    this.r  = this.base + (1 - dist / mouse.radius) * 4;
+                } else {
+                    this.r += (this.base - this.r) * 0.08;
+                }
+            }
+            /* gentle idle pulse */
+            this.a  = 0.25 + Math.sin(t * 0.0008 + this.pulseOffset) * 0.18;
+            this.x += this.vx;
+            this.y += this.vy;
+            if (this.x < 0) this.x = W;
+            if (this.x > W) this.x = 0;
+            if (this.y < 0) this.y = H;
+            if (this.y > H) this.y = 0;
+        };
+
+        Particle.prototype.draw = function () {
+            /* halo: plain semi-transparent fill, no radialGradient allocation */
+            if (this.r > this.base + 1) {
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.r * 5, 0, Math.PI * 2);
+                ctx.fillStyle = `rgba(${RGB_LIGHT}, ${this.a * 0.10})`;
+                ctx.fill();
+            }
+            ctx.beginPath();
+            ctx.arc(this.x, this.y, this.r, 0, Math.PI * 2);
+            ctx.fillStyle = `rgba(${RGB_LIGHT}, ${this.a})`;
+            ctx.fill();
+        };
+
+        /* ---- spawn ---- */
+        function spawnParticles() {
+            const count = Math.min(80, Math.floor((W * H) / 14000));
+            particles   = Array.from({ length: count }, () => new Particle());
+        }
+
+        /* ---- connect particles — batched by proximity bucket ----
+           Before: ~8000 individual beginPath/stroke calls @ 130 particles
+           After:  5 stroke calls total, regardless of particle count       */
+        const P2P_MAX   = 120;
+        const P2P_MAX2  = P2P_MAX * P2P_MAX;
+        const P2P_N     = 5;    /* alpha buckets */
+
+        function connectParticles() {
+            const segs = [[], [], [], [], []];
+
+            for (let i = 0; i < particles.length; i++) {
+                const pi = particles[i];
+                for (let j = i + 1; j < particles.length; j++) {
+                    const pj = particles[j];
+                    const dx = pi.x - pj.x;
+                    const dy = pi.y - pj.y;
+                    const d2 = dx * dx + dy * dy;
+                    if (d2 < P2P_MAX2) {
+                        const ratio  = 1 - Math.sqrt(d2) / P2P_MAX;
+                        const bucket = Math.min(P2P_N - 1, (ratio * P2P_N) | 0);
+                        const s      = segs[bucket];
+                        s.push(pi.x, pi.y, pj.x, pj.y);
+                    }
+                }
+            }
+
+            for (let b = 0; b < P2P_N; b++) {
+                const s = segs[b];
+                if (!s.length) continue;
+                const ratio = (b + 0.5) / P2P_N;
+                ctx.beginPath();
+                ctx.strokeStyle = `rgba(${RGB}, ${ratio * 0.28})`;
+                ctx.lineWidth   = ratio * 1.2;
+                for (let k = 0; k < s.length; k += 4) {
+                    ctx.moveTo(s[k], s[k + 1]);
+                    ctx.lineTo(s[k + 2], s[k + 3]);
+                }
+                ctx.stroke();
+            }
+        }
+
+        /* ---- connect to mouse — batched, no gradient objects ---- */
+        const M2P_MAX   = 160;
+        const M2P_MAX2  = M2P_MAX * M2P_MAX;
+        const M2P_N     = 4;
+
+        function connectMouse() {
+            if (mouse.x === null) return;
+
+            /* soft cursor halo — plain fill, no radialGradient */
+            ctx.beginPath();
+            ctx.arc(mouse.x, mouse.y, 28, 0, Math.PI * 2);
+            ctx.fillStyle = `rgba(${RGB_LIGHT}, 0.10)`;
+            ctx.fill();
+
+            const segs = [[], [], [], []];
+            particles.forEach(p => {
+                const dx  = p.x - mouse.x;
+                const dy  = p.y - mouse.y;
+                const d2  = dx * dx + dy * dy;
+                if (d2 < M2P_MAX2) {
+                    const ratio  = 1 - Math.sqrt(d2) / M2P_MAX;
+                    const bucket = Math.min(M2P_N - 1, (ratio * M2P_N) | 0);
+                    segs[bucket].push(mouse.x, mouse.y, p.x, p.y);
+                }
+            });
+
+            for (let b = 0; b < M2P_N; b++) {
+                const s = segs[b];
+                if (!s.length) continue;
+                const ratio = (b + 0.5) / M2P_N;
+                ctx.beginPath();
+                ctx.strokeStyle = `rgba(${RGB_LIGHT}, ${ratio * 0.55})`;
+                ctx.lineWidth   = ratio * 1.6;
+                for (let k = 0; k < s.length; k += 4) {
+                    ctx.moveTo(s[k], s[k + 1]);
+                    ctx.lineTo(s[k + 2], s[k + 3]);
+                }
+                ctx.stroke();
+            }
+        }
+
+        /* ---- loop ---- */
+        function loop(t) {
+            ctx.clearRect(0, 0, W, H);
+            particles.forEach(p => p.update(t));
+            connectParticles();
+            connectMouse();
+            particles.forEach(p => p.draw());
+            requestAnimationFrame(loop);
+        }
+
+        resize();
+        spawnParticles();
+        requestAnimationFrame(loop);
+    })();
+    </script>
+</body>
+</html>
