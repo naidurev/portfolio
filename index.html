@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Revanth Naidu | Bioinformatician</title>
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230D0C0E'/%3E%3Ctext x='6' y='44' font-family='monospace' font-weight='700' font-size='28' fill='%23ffffff'%3ERN%3C/text%3E%3Ctext x='52' y='44' font-family='monospace' font-weight='700' font-size='28' fill='%23FB790B'%3E.%3C/text%3E%3C/svg%3E">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23d4d4d4'/%3E%3Ctext x='6' y='44' font-family='monospace' font-weight='700' font-size='28' fill='%23181717'%3ERN%3C/text%3E%3Ctext x='52' y='44' font-family='monospace' font-weight='700' font-size='28' fill='%238d0000'%3E.%3C/text%3E%3C/svg%3E">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 </head>
@@ -29,38 +29,83 @@
 
     <!-- HERO -->
     <section class="hero" id="home">
-        <div class="hero-glass">
+
+        <!-- Badge -->
+        <div class="hero-top">
             <div class="hero-badge">
                 <div class="badge-dot"></div>
                 Available for research collaborations
             </div>
-            <h1 class="hero-name">Revanth Naidu</h1>
+        </div>
+
+        <!-- Scrolling name marquee -->
+        <div class="hero-name-row">
+            <div class="hero-name-track">
+                <span class="hero-name-item">REVANTH NAIDU</span><span class="hero-name-sep">◆</span>
+                <span class="hero-name-item">REVANTH NAIDU</span><span class="hero-name-sep">◆</span>
+                <span class="hero-name-item">REVANTH NAIDU</span><span class="hero-name-sep">◆</span>
+                <span class="hero-name-item">REVANTH NAIDU</span><span class="hero-name-sep">◆</span>
+            </div>
+
+            <div class="hero-photo-slot">
+                <img src="images/revanth.png" alt="Revanth Naidu" class="hero-photo">
+            </div>
+        </div>
+
+        <!-- Bottom: typed role + CTA -->
+        <div class="hero-bottom">
             <div class="hero-role">
                 <span id="typed-text"></span><span class="cursor" style="color:var(--accent);animation:blink 0.8s step-end infinite">|</span>
             </div>
-            <p class="hero-desc">
-                Bioinformatician with experience in protein structure prediction, molecular dynamics simulations, and drug discovery. Currently pursuing an MSc in Bioinformatics for Health Sciences at UPF/UB Barcelona.
-            </p>
             <div class="hero-cta">
                 <a href="#projects" class="btn btn-primary">View My Work</a>
                 <a href="#contact" class="btn btn-outline">Get In Touch</a>
             </div>
-            <div class="hero-stats">
-                <div class="stat">
-                    <span class="stat-num"><span data-target="2000">0</span>+</span>
-                    <span class="stat-label">Compounds Screened</span>
-                </div>
-                <div class="stat">
-                    <span class="stat-num"><span data-target="500">0</span>ns</span>
-                    <span class="stat-label">MD Simulations</span>
-                </div>
-                <div class="stat">
-                    <span class="stat-num"><span data-target="1">0</span></span>
-                    <span class="stat-label">Publication</span>
-                </div>
+        </div>
+
+        <!-- Stats -->
+        <div class="hero-stats">
+            <div class="stat">
+                <span class="stat-num"><span data-target="2000">0</span>+</span>
+                <span class="stat-label">Compounds Screened</span>
+            </div>
+            <div class="stat">
+                <span class="stat-num"><span data-target="500">0</span>ns</span>
+                <span class="stat-label">MD Simulations</span>
+            </div>
+            <div class="stat">
+                <span class="stat-num"><span data-target="1">0</span></span>
+                <span class="stat-label">Publication</span>
             </div>
         </div>
+
     </section>
+
+    <!-- MARQUEE BAND -->
+    <div class="marquee-band">
+        <div class="marquee-track">
+            <span>Bioinformatics</span><span class="marquee-dot">✦</span>
+            <span>Molecular Dynamics</span><span class="marquee-dot">✦</span>
+            <span>Python</span><span class="marquee-dot">✦</span>
+            <span>Drug Discovery</span><span class="marquee-dot">✦</span>
+            <span>GROMACS</span><span class="marquee-dot">✦</span>
+            <span>AutoDock Vina</span><span class="marquee-dot">✦</span>
+            <span>Structural Biology</span><span class="marquee-dot">✦</span>
+            <span>AlphaFold</span><span class="marquee-dot">✦</span>
+            <span>RNA-seq</span><span class="marquee-dot">✦</span>
+            <span>Barcelona</span><span class="marquee-dot">✦</span>
+            <span>Bioinformatics</span><span class="marquee-dot">✦</span>
+            <span>Molecular Dynamics</span><span class="marquee-dot">✦</span>
+            <span>Python</span><span class="marquee-dot">✦</span>
+            <span>Drug Discovery</span><span class="marquee-dot">✦</span>
+            <span>GROMACS</span><span class="marquee-dot">✦</span>
+            <span>AutoDock Vina</span><span class="marquee-dot">✦</span>
+            <span>Structural Biology</span><span class="marquee-dot">✦</span>
+            <span>AlphaFold</span><span class="marquee-dot">✦</span>
+            <span>RNA-seq</span><span class="marquee-dot">✦</span>
+            <span>Barcelona</span><span class="marquee-dot">✦</span>
+        </div>
+    </div>
 
     <!-- ABOUT -->
     <section class="section" id="about">
@@ -345,6 +390,10 @@
         <span class="lightbox-counter" id="lbCounter"></span>
     </div>
 
+    <!-- CUSTOM CURSOR ELEMENTS -->
+    <div id="cursor-dot"></div>
+    <div id="cursor-ring"></div>
+
     <style>
         @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
         .skill-card { padding: 24px; }
@@ -469,6 +518,85 @@
     </script>
 
     <script>
+    /* ===== CUSTOM CURSOR ===== */
+    (function () {
+        const dot  = document.getElementById('cursor-dot');
+        const ring = document.getElementById('cursor-ring');
+        if (!dot || !ring) return;
+        // Hide on touch / pointer:coarse devices
+        if (window.matchMedia('(hover: none)').matches) {
+            dot.style.display = 'none';
+            ring.style.display = 'none';
+            return;
+        }
+        let mx = 0, my = 0, rx = 0, ry = 0;
+        document.addEventListener('mousemove', e => {
+            mx = e.clientX; my = e.clientY;
+            dot.style.left = mx + 'px';
+            dot.style.top  = my + 'px';
+        });
+        (function animRing() {
+            rx += (mx - rx) * 0.12;
+            ry += (my - ry) * 0.12;
+            ring.style.left = rx + 'px';
+            ring.style.top  = ry + 'px';
+            requestAnimationFrame(animRing);
+        })();
+        const hoverEls = document.querySelectorAll(
+            'a, button, .gallery-item, .glass-card, .nav-link, .scroll-top, .marquee-track span'
+        );
+        hoverEls.forEach(el => {
+            el.addEventListener('mouseenter', () => document.body.classList.add('cursor-hover'));
+            el.addEventListener('mouseleave', () => document.body.classList.remove('cursor-hover'));
+        });
+    })();
+    </script>
+
+    <script>
+    /* ===== SPLIT-TEXT HEADING REVEAL ===== */
+    (function () {
+        document.querySelectorAll('.section-title').forEach(title => {
+            const words = title.textContent.trim().split(/\s+/);
+            title.innerHTML = words
+                .map(w => `<span class="word-reveal"><span>${w}</span></span>`)
+                .join(' ');
+        });
+
+        const wordObs = new IntersectionObserver(entries => {
+            entries.forEach(e => {
+                if (!e.isIntersecting) return;
+                const words = e.target.querySelectorAll('.word-reveal');
+                words.forEach((wr, i) => {
+                    setTimeout(() => wr.classList.add('visible'), i * 90);
+                });
+                wordObs.unobserve(e.target);
+            });
+        }, { threshold: 0.25 });
+
+        document.querySelectorAll('.section-header').forEach(h => wordObs.observe(h));
+    })();
+    </script>
+
+    <script>
+    /* ===== FLOATING "VIEW →" BUTTON ON PROJECT CARDS ===== */
+    (function () {
+        document.querySelectorAll('.projects-grid .glass-card').forEach(card => {
+            // Create and inject the floating button
+            const btn = document.createElement('div');
+            btn.className = 'proj-view-btn';
+            btn.textContent = 'View →';
+            card.appendChild(btn);
+
+            card.addEventListener('mousemove', e => {
+                const r = card.getBoundingClientRect();
+                btn.style.left = (e.clientX - r.left) + 'px';
+                btn.style.top  = (e.clientY - r.top)  + 'px';
+            });
+        });
+    })();
+    </script>
+
+    <script>
     /* =============================================
        PARTICLE NETWORK — Glass Theme (optimised)
        Key changes vs original:
@@ -484,8 +612,8 @@
         const canvas = document.getElementById('bgCanvas');
         const ctx    = canvas.getContext('2d');
 
-        const RGB       = '251, 121, 11';    /* --accent orange  */
-        const RGB_LIGHT = '248, 162, 79';    /* --accent-2 amber */
+        const RGB       = '141, 0, 0';        /* --accent graphite red  */
+        const RGB_LIGHT = '180, 30, 30';     /* --accent-2 lighter red */
 
         let W, H, particles;
         const mouse = { x: null, y: null, radius: 140 };
